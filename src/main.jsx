@@ -6,6 +6,9 @@ import Home from "./Home/Home/Home";
 import { Toaster } from "react-hot-toast";
 import ContactMe from "./Home/ContactMe/ContactMe";
 import Main from "./LayOut/Main";
+import AboutMe from "./Home/AboutMe/AboutMe";
+import Skills from "./Home/Skills/Skills";
+import Projects from "./Home/Projects/Projects";
 
 const router = createBrowserRouter([
   {
@@ -15,6 +18,18 @@ const router = createBrowserRouter([
       {
         path: "/",
     element: <Home></Home>,
+      },
+      {
+        path: "/aboutMe",
+    element: <AboutMe></AboutMe>,
+      },
+      {
+        path: "/skills",
+    element: <Skills></Skills>,
+      },
+      {
+        path: "/projects",
+    element: <Projects></Projects>,
       },
       {
         path:'/contactMe',
