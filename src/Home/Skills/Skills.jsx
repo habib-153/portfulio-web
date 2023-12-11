@@ -1,14 +1,19 @@
-import SectionTitle from "../../Component/SectionTitle/SectionTitle";
 
+import SectionTitle from "../../Component/SectionTitle/SectionTitle";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
 const Skills = () => {
   return (
     <div>
       <SectionTitle heading="My Skills"></SectionTitle>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-4">
-        <div className="card h-16 bg-[#0db3ea30]">
+        <div data-aos="fade-down" className="card h-16 bg-[#0db3ea30]">
           <div className="card-body gap-1 p-2">
             <h2 className="card-title">HTML</h2>
-            <div className="relative">
+            <div data-aos="fade-right"
+      className="relative">
               <progress
                 className="progress progress-info absolute w-full h-4"
                 value="85"
@@ -20,10 +25,11 @@ const Skills = () => {
             </div>
           </div>
         </div>
-        <div className="card h-16 bg-[#0db3ea30]">
+        <div data-aos="fade-up" className="card h-16 bg-[#0db3ea30]">
           <div className="card-body gap-1 p-2">
             <h2 className="card-title">CSS</h2>
-            <div className="relative">
+            <div data-aos="fade-right"
+      className="relative">
               <progress
                 className="progress progress-info absolute w-full h-4"
                 value="80"
@@ -35,10 +41,11 @@ const Skills = () => {
             </div>
           </div>
         </div>
-        <div className="card h-16 bg-[#0db3ea30]">
+        <div data-aos="fade-down" className="card h-16 bg-[#0db3ea30]">
           <div className="card-body gap-1 p-2">
             <h2 className="card-title">Tailwind</h2>
-            <div className="relative">
+            <div data-aos="fade-right"
+      className="relative">
               <progress
                 className="progress progress-info absolute w-full h-4"
                 value="83"
@@ -50,10 +57,11 @@ const Skills = () => {
             </div>
           </div>
         </div>
-        <div className="card h-16 bg-[#0db3ea30]">
+        <div data-aos="fade-up" className="card h-16 bg-[#0db3ea30]">
           <div className="card-body gap-1 p-2">
             <h2 className="card-title">Javascript</h2>
-            <div className="relative">
+            <div data-aos="fade-right"
+      className="relative">
               <progress
                 className="progress progress-info absolute w-full h-4"
                 value="70"
@@ -65,10 +73,11 @@ const Skills = () => {
             </div>
           </div>
         </div>
-        <div className="card h-16 bg-[#0db3ea30]">
+        <div data-aos="fade-down" className="card h-16 bg-[#0db3ea30]">
           <div className="card-body gap-1 p-2">
             <h2 className="card-title">React</h2>
-            <div className="relative">
+            <div data-aos="fade-right"
+      className="relative">
               <progress
                 className="progress progress-info absolute w-full h-4"
                 value="60"
@@ -80,10 +89,10 @@ const Skills = () => {
             </div>
           </div>
         </div>
-        <div className="card h-16 bg-[#0db3ea30]">
+        <div data-aos="fade-up" className="card h-16 bg-[#0db3ea30]">
           <div className="card-body gap-1 p-2">
             <h2 className="card-title">Express</h2>
-            <div className="relative">
+            <div data-aos="fade-right" className="relative">
               <progress
                 className="progress progress-info absolute w-full h-4"
                 value="50"

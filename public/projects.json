@@ -2,29 +2,32 @@
     {
       "id": 1,
       "name": "My building",
+      "type": "Building Management System",
       "live_link": "https://a-12-my-building.web.app/",
       "client_side_repo": "https://github.com/habib-153/my-building-client",
       "server_side_repo": "https://github.com/habib-153/my-building-server",
       "features": "https://github.com/habib-153/my-building-client/blob/main/README.md",
-      "image": "my_building.jpg"
+      "image": "https://i.ibb.co/rZx7Dm5/Screenshot-2023-12-11-235428-removebg-preview.png"
     },
     {
       "id": 2,
-      "name": "Online Group Study[Assignment submission management]",
+      "name": "Online Group Study",
+      "type": "Assignment submission management",
       "live_link": "https://a-11-online-group-study.web.app/",
       "client_side_repo": "https://github.com/habib-153/assignment-submission-client",
       "server_side_repo": "https://github.com/habib-153/assignment-submission-server",
       "features": "https://github.com/habib-153/assignment-submission-client/blob/main/README.md",
-      "image": "online_group_study.jpg"
+      "image": "https://i.ibb.co/tz65f9v/Screenshot-2023-12-11-235606-removebg-preview.png"
     },
     {
       "id": 3,
       "name": "Tech & Electronics",
+      "type": "Tech info",
       "live_link": "https://cute-hotteok-6ac779.netlify.app/",
       "client_side_repo": "https://github.com/habib-153/Tech-Electronics/tree/main/Tech-clint-side",
       "server_side_repo": "https://github.com/habib-153/Tech-Electronics/tree/main/server-side",
       "features": "https://github.com/habib-153/Tech-Electronics/blob/main/README.md",
-      "image": "tech_electronics.jpg"
+      "image": "https://i.ibb.co/VD2BQxK/Screenshot-2023-12-11-235822-removebg-preview.png"
     }
   ]
   
