@@ -6,7 +6,7 @@ import 'aos/dist/aos.css'; // You can also use <link> for styles
 AOS.init();
 const Skills = () => {
   return (
-    <div>
+    <div className="my-16">
       <SectionTitle heading="My Skills"></SectionTitle>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-4">
         <div data-aos="fade-down" className="card h-16 bg-[#0db3ea30]">

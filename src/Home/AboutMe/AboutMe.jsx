@@ -4,11 +4,11 @@ const AboutMe = () => {
   return (
     <div className='my-4'>
         <SectionTitle heading="About Me"></SectionTitle>
-      <div className="hero-content flex-col lg:flex-row gap-6">
+      <div className="hero-content flex-col md:flex-row gap-6">
         <div className=''>
             <img
           src={ima1}
-          className="w-[350px] md:w-[400px] h-[380px] rounded-lg "
+          className="w-[350px] md:w-[450px] h-[380px] rounded-lg "
         />
         </div>
         <div>
