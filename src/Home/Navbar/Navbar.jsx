@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import Resume from "../../assets/Certi1.pdf";
+import Resume from "../../assets/HabiburRahman-Resume.pdf";
 
 const Navbar = () => {
   const navLinks = (
@@ -111,7 +111,7 @@ const Navbar = () => {
         <ul className="font-semibold menu-horizontal px-1">{navLinks}</ul>
       </div>
       <div className="navbar-end">
-        <a href={Resume} download="MyResume.pdf">
+        <a href={Resume} download="HabiburRahman-Resume.pdf">
           <button className="btn btn-outline text-[17px] border-cyan-500 hover:bg-[#0db3eae1]">
             Download Resume
           </button>
