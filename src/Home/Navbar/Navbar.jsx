@@ -113,7 +113,7 @@ const Navbar = () => {
       <div className="navbar-end">
         <a href={Resume} download="HabiburRahman-Resume.pdf">
           <button className="btn btn-outline text-[17px] border-cyan-500 hover:bg-[#0db3eae1]">
-            Download Resume
+            Resume
           </button>
         </a>
       </div>
