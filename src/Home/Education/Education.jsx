@@ -22,7 +22,7 @@ const Education = () => {
               </svg>
             </div>
             <div className="timeline-start md:text-end mb-10">
-              <time className="font-mono italic">2023-2027</time>
+              <time className="">2023-2027</time>
               <h2 className="text-lg font-black">United International University</h2>
               <p>Bsc. in <span className="font-bold">Data Science</span></p>
             </div>
@@ -45,7 +45,7 @@ const Education = () => {
               </svg>
             </div>
             <div className="timeline-end mb-10">
-            <time className="font-mono italic">2020-2022</time>
+            <time className="">2020-2022</time>
               <h2 className="text-lg font-bold">BAF Shaheen College Dhaka</h2>
               <p><span className="">HSC</span></p>
             </div>
