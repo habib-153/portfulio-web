@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import Resume from "../../assets/HabiburRahman-Resume.pdf";
+import Resume from "../../assets/HabiburRahmanResume_updated.pdf";
 
 const Navbar = () => {
   const navLinks = (
