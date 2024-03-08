@@ -3,9 +3,11 @@ import Navbar from "../Home/Navbar/Navbar";
 
 const Main = () => {
     return (
-        <div>
+        <div >
             <Navbar></Navbar>
-            <Outlet></Outlet>
+            <div className="max-w-[1200px] mx-auto my-16">
+                <Outlet></Outlet>
+            </div>
         </div>
     );
 };

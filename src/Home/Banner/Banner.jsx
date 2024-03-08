@@ -20,7 +20,7 @@ function Banner() {
   }, []);
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-center my-8 p-4">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-center my-16 md:my-24  p-4">
       <div className="space-y-3">
         <h2 className="text-5xl font-bold ">I’m Habibur Rahman</h2>
         <div>

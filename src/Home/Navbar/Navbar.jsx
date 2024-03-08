@@ -72,12 +72,14 @@ const Navbar = () => {
           }
         >
           Contact Me
+          {/* <a href="contactMe#">Contact Me</a> */}
         </NavLink>
       </li>
     </div>
   );
   return (
-    <div className=" navbar bg-base-100">
+    <div className="z-10 fixed navbar top-0 max-w-[1300px] h-[50px] bg-base-300">
+      <div className=" navbar max-w-[1200px] mx-auto ">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost md:hidden">
@@ -118,6 +120,8 @@ const Navbar = () => {
         </a>
       </div>
     </div>
+    </div>
+    
   );
 };
 
