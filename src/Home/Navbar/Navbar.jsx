@@ -1,25 +1,10 @@
-import { NavLink } from "react-router-dom";
 import Resume from "../../assets/HabiburRahmanResume.pdf";
 
 const Navbar = () => {
   const navLinks = (
     <div className="md:flex gap-5 md:items-center">
-      <li className="hover:text-[#272ee5ea]">
-        <NavLink
-          to="/"
-          className={({ isActive, isPending }) =>
-            isActive
-              ? "text-[#0db3eae1] hover:text-[#272ee5ea] underline font-bold"
-              : isPending
-              ? "pending"
-              : ""
-          }
-        >
-          Home
-        </NavLink>
-      </li>
-      <li className="hover:text-[#272ee5ea]">
-        <NavLink
+      <li className="hover:text-[#0db3eae1]">
+        {/* <NavLink
           to="/projects"
           className={({ isActive, isPending }) =>
             isActive
@@ -30,56 +15,20 @@ const Navbar = () => {
           }
         >
           Projects
-        </NavLink>
+        </NavLink> */}
+        <a href="#skills">Skills</a>
       </li>
-      <li className="hover:text-[#272ee5ea]">
-        <NavLink
-          to="/skills"
-          className={({ isActive, isPending }) =>
-            isActive
-              ? "text-[#0db3eae1] hover:text-[#272ee5ea] underline font-bold"
-              : isPending
-              ? "pending"
-              : ""
-          }
-        >
-          Skills
-        </NavLink>
+      <li className="hover:text-[#0db3eae1]">
+        <a href="#projects">Projects</a>
       </li>
-      <li className="hover:text-[#272ee5ea]">
-        <NavLink
-          to="/aboutMe"
-          className={({ isActive, isPending }) =>
-            isActive
-              ? "text-[#0db3eae1] hover:text-[#272ee5ea] underline font-bold"
-              : isPending
-              ? "pending"
-              : ""
-          }
-        >
-          About Me
-        </NavLink>
-      </li>
-      <li className="hover:text-[#272ee5ea]">
-        <NavLink
-          to="/contactMe"
-          className={({ isActive, isPending }) =>
-            isActive
-              ? "text-[#0db3eae1] hover:text-[#272ee5ea] underline font-bold"
-              : isPending
-              ? "pending"
-              : ""
-          }
-        >
-          Contact Me
-          {/* <a href="contactMe#">Contact Me</a> */}
-        </NavLink>
+      <li className="hover:text-[#0db3eae1]">
+      <a href="#contact">Contact</a>
       </li>
     </div>
   );
   return (
-    <div className="z-10 fixed navbar top-0 max-w-[1300px] h-[50px] bg-base-300">
-      <div className=" navbar max-w-[1200px] mx-auto ">
+    <div className="navbar top-0 max-w-[1300px] h-[50px] bg-base-300">
+      <div className="navbar max-w-[1200px] mx-auto ">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost md:hidden">

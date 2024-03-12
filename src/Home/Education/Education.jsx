@@ -2,7 +2,7 @@ import SectionTitle from "../../Component/SectionTitle/SectionTitle";
 
 const Education = () => {
   return (
-    <div>
+    <div className="my-12">
       <SectionTitle heading="Education"></SectionTitle>
       <div className="my-4">
         <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">

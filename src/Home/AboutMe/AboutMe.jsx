@@ -2,9 +2,9 @@ import SectionTitle from '../../Component/SectionTitle/SectionTitle';
 import ima1 from '../../assets/IMG_4604.jpg'
 const AboutMe = () => {
   return (
-    <div className='my-4'>
+    <div className='my-12'>
         <SectionTitle heading="About Me"></SectionTitle>
-      <div className="hero-content flex-col md:flex-row gap-6">
+      <div className="hero-content flex-col-reverse md:flex-row gap-6">
         <div className=''>
             <img
           src={ima1}

@@ -8,7 +8,7 @@ function Banner() {
 
   useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ["Web Developer", "Web Design"],
+      strings: ["Web Developer", "MERN Stack"],
       typeSpeed: 90,
       backSpeed: 90,
       loop: true,
@@ -20,7 +20,7 @@ function Banner() {
   }, []);
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-center my-16 md:my-24  p-4">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-center my-[50px] ">
       <div className="space-y-3">
         <h2 className="text-5xl font-bold ">I’m Habibur Rahman</h2>
         <div>
