@@ -1,5 +1,7 @@
 import SectionTitle from '../../Component/SectionTitle/SectionTitle';
 import ima1 from '../../assets/rsz_2img_4604.jpg'
+import './animation.css'
+
 const AboutMe = () => {
   return (
     <div className='my-16'>
@@ -8,7 +10,7 @@ const AboutMe = () => {
         <div data-aos="fade-right" className='w-full order-2 md:order-1'>
             <img
           src={ima1}
-          className="w-[350px] md:w-[320px] h-[340px] mx-auto rounded-lg"
+          className="w-[350px] animation-flooding3 md:w-[320px] h-[340px] mx-auto rounded-lg"
         />
         </div>
         <div data-aos='fade-up' className='md:order-2'>
