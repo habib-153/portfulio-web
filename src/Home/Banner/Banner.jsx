@@ -1,6 +1,6 @@
 import { useRef, useEffect } from "react";
 import Typed from "typed.js";
-import img from "../../assets/IMG_4604-2.JPG";
+import img from "../../assets/rsz_2img_4604-2.jpg";
 import './banner.css'
 
 function Banner() {
@@ -20,8 +20,8 @@ function Banner() {
   }, []);
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-center my-[50px] ">
-      <div className="space-y-3">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-center  md:my-20">
+      <div className="space-y-3 mb-4">
         <h2 className="text-5xl font-bold ">I’m Habibur Rahman</h2>
         <div>
           <span

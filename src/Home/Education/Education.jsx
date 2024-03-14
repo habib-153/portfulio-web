@@ -4,7 +4,7 @@ const Education = () => {
   return (
     <div className="my-12">
       <SectionTitle heading="Education"></SectionTitle>
-      <div className="my-4">
+      <div className="my-8">
         <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
           <li data-aos="fade-up">
             <div className="timeline-middle">

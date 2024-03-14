@@ -2,7 +2,7 @@
 import  { useState } from "react";
 import emailjs from "emailjs-com";
 import toast from "react-hot-toast";
-import img2 from '../../assets/Untitled-2.png'
+import img2 from '../../assets/contact_info.png'
 
 function ContactMe() {
   const [formData, setFormData] = useState({
