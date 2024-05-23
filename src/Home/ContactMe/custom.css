@@ -1,0 +1,13 @@
+.custom {
+    width: full;
+}
+@media (min-width: 450px) {
+    .custom {
+        max-width: 300px;
+    }
+}
+@media (min-width: 550px) {
+    .custom {
+        width: 100%;
+    }
+}
