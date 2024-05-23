@@ -14,6 +14,10 @@ function ContactMe() {
     reply_to: "",
   });
 
+  const serviceId = import.meta.env.VITE_SERVICE_ID
+  const templateId = import.meta.env.VITE_TEMPLATE_ID
+  const userId = import.meta.env.VITE_USER_ID
+
   const handleChange = (e) => {
     setFormData({
       ...formData,
@@ -26,13 +30,13 @@ function ContactMe() {
     emailjs
       .send(
         // Replace with your service ID
-        "service_a9z4p1c",
+        serviceId,
         // Replace with your template ID
-        "template_0y4sa3m",
+        templateId,
         // The form data
         formData,
         // Replace with your user ID
-        "BUNP8XV4xpWyNkcmD"
+        userId
       )
       .then(
         (result) => {
