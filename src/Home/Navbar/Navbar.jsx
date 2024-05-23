@@ -1,4 +1,4 @@
-import Resume from "../../assets/HabiburRahmanResume.pdf";
+import Resume from "../../assets/HabiburRahmanResume_Web Developer.pdf";
 
 const Navbar = () => {
   const navLinks = (
