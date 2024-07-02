@@ -2,13 +2,14 @@ import { useRef, useEffect } from "react";
 import Typed from "typed.js";
 import img from "../../assets/rsz_2img_4604-2.jpg";
 import './banner.css'
+import { FaLinkedin, FaGithub } from 'react-icons/fa';
 
-function Banner() {
+const Banner = () => {
   const el = useRef(null);
 
   useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ["Web Developer", "MERN Stack"],
+      strings: ["Web Developer", "Full Stack Developer", "React Developer", "Frontend Developer","Tech Innovator", 'Backend Developer'],
       typeSpeed: 90,
       backSpeed: 90,
       loop: true,
@@ -28,6 +29,14 @@ function Banner() {
             className="type-writer text-3xl font-semibold text-[#0db3eae1]"
             ref={el}
           ></span>
+        </div>
+        <div className="flex mt-6 gap-4">
+          <a href="https://www.linkedin.com/in/habiburrahman153/" target="_blank" rel="noopener noreferrer" className="text-4xl text-[#0077B5]">
+            <FaLinkedin className="mr-2" />
+          </a>
+          <a href="https://github.com/habib-153" target="_blank" rel="noopener noreferrer" className="text-4xl text-[#171515]">
+            <FaGithub className="mr-2" />
+          </a>
         </div>
       </div>
       <div>
